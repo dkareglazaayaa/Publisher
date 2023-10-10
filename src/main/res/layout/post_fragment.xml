@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/lightPurple"
+    tools:context=".Fragments.PostFragment">
+
+    <TextView
+        android:id="@+id/postTitle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Post title"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/postImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/no_photo" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"></WebView>
+
+    <TextView
+        android:id="@+id/postText"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"
+        android:gravity="top"
+        android:text="Post text"
+        android:textSize="15dp"
+        android:scrollbars = "vertical"/>
+    <Button
+        android:id="@+id/websiteButton"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"
+        android:text="Website"
+        android:textSize="20dp"
+        android:visibility="invisible" />
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="340dp"
+        android:background="@drawable/back_button">
+    </Button>
+
+    <ImageButton
+        android:id="@+id/playSoundButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/play_sound_button" />
+</RelativeLayout>

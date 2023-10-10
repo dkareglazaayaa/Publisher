@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AddPostFragment">
+
+    <ImageButton
+        android:id="@+id/playSoundButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/play_sound_button" />
+    <EditText
+        android:id="@+id/postTitle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Post title" />
+
+
+    <ImageView
+        android:id="@+id/postImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/no_photo" />
+
+    <EditText
+        android:id="@+id/webUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_gravity="center|top"
+        android:hint="Web url"
+        android:gravity="top"/>
+
+    <EditText
+        android:id="@+id/postText"
+        android:layout_width="300dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="50dp"
+        android:hint="Post text"
+        android:gravity="top"/>
+
+    <Button
+        android:id="@+id/publishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="720dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="20dp"
+        android:text="Publish"/>
+
+    <Button
+        android:id="@+id/selectSoundButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="650dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="12dp"
+        android:text="Select sound"/>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="340dp"
+        android:background="@drawable/back_button">
+    </Button>
+
+</FrameLayout>
